@@ -1,0 +1,9 @@
+{
+	"name": "entity-waterfilling-re-enabled",
+	"version": "1.1.0",
+	"title": "Space Exploration House Waterfilling Fix",
+	"author": "Phoniez",
+	"description": "Allows house waterfilling to function alongside Space Exploration again, just install this alongside any waterfill mod and Space Exploration.",
+	"factorio_version": "1.1",
+	"dependencies": ["space-exploration-postprocess >= 0.5.26"]
+}
