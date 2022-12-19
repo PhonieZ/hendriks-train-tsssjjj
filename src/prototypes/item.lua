@@ -428,7 +428,10 @@ data:extend({  --This makes all the custom items this mod adds available for use
         order="greerap",
         stack_size=200,
         subgroup="science-pack",
-        type="item",
+        type="tool",
+        durability = 1,
+        durability_description_key = "description.science-pack-remaining-amount-key",
+        durability_description_value = "description.science-pack-remaining-amount-value",
         pictures= 
         {
             layers= 

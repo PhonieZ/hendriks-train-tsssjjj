@@ -4,7 +4,7 @@ data:extend({  --This makes all the custom recipes this mod adds available for u
         name="greer-chunk-seperation",
         type="recipe",
         category="centrifuging",
-        enabled=true,
+        enabled=false,
         main_product="greer-chunks",
         energy_required=24,
         ingredients=
@@ -30,7 +30,7 @@ data:extend({  --This makes all the custom recipes this mod adds available for u
         name="greer-chunk-crushing",
         type="recipe",
         category="advanced-crafting",
-        enabled=true,
+        enabled=false,
         main_product="coarse-greer-powder",
         energy_required=28,
         ingredients=
@@ -51,7 +51,7 @@ data:extend({  --This makes all the custom recipes this mod adds available for u
         name="coarse-greer-sandcastle-making",
         type="recipe",
         category="advanced-crafting",
-        enabled=true,
+        enabled=false,
         main_product="coarse-greer-sandcastle",
         energy_required=30,
         ingredients=
@@ -77,7 +77,7 @@ data:extend({  --This makes all the custom recipes this mod adds available for u
         name="coarse-greer-sandcastle-burning",
         type="recipe",
         category="smelting",
-        enabled=true,
+        enabled=false,
         main_product="burnt-coarse-greer-sandcastle",
         energy_required=10,
         ingredients=
@@ -98,9 +98,16 @@ data:extend({  --This makes all the custom recipes this mod adds available for u
         name="fine-greer-powder-extraction",
         type="recipe",
         category="chemistry",
-        enabled=true,
+        enabled=false,
         main_product="fine-greer-powder",
         energy_required=45,
+        crafting_machine_tint=
+        {
+            primary={r=0,g=1,b=0,a=0.75},
+            secondary={r=0,g=1,b=0,a=0.75},
+            tertiary={r=0,g=1,b=0,a=0.75},
+            quaternary={r=0,g=1,b=0,a=0.75},
+        },
         ingredients=
         {
             {"burnt-coarse-greer-sandcastle",1},
@@ -129,7 +136,7 @@ data:extend({  --This makes all the custom recipes this mod adds available for u
         name="fine-greer-sandcastle-making",
         type="recipe",
         category="advanced-crafting",
-        enabled=true,
+        enabled=false,
         main_product="fine-greer-sandcastle",
         energy_required=60,
         ingredients=
@@ -155,7 +162,7 @@ data:extend({  --This makes all the custom recipes this mod adds available for u
         name="fine-greer-block-pressing",
         type="recipe",
         category="advanced-crafting",
-        enabled=true,
+        enabled=false,
         main_product="fine-greer-block",
         energy_required=36,
         ingredients=
@@ -181,7 +188,7 @@ data:extend({  --This makes all the custom recipes this mod adds available for u
         name="greer-reacting-cell-making",
         type="recipe",
         category="crafting-with-fluid",
-        enabled=true,
+        enabled=false,
         main_product="greer-reacting-cell",
         energy_required=60,
         ingredients=
@@ -205,9 +212,16 @@ data:extend({  --This makes all the custom recipes this mod adds available for u
         name="solid-greer-mound-extraction",
         type="recipe",
         category="chemistry",
-        enabled=true,
+        enabled=false,
         main_product="solid-greer-mound",
         energy_required=30,
+        crafting_machine_tint=
+        {
+            primary={r=0,g=1,b=0,a=0.75},
+            secondary={r=0,g=1,b=0,a=0.75},
+            tertiary={r=0,g=1,b=0,a=0.75},
+            quaternary={r=0,g=1,b=0,a=0.75},
+        },
         ingredients=
         {
             {"used-greer-reacting-cell",1},
@@ -236,7 +250,7 @@ data:extend({  --This makes all the custom recipes this mod adds available for u
         name="solid-greer-mound-softening",
         type="recipe",
         category="smelting",
-        enabled=true,
+        enabled=false,
         main_product="soft-solid-greer-mound",
         energy_required=10,
         ingredients=
@@ -253,7 +267,7 @@ data:extend({  --This makes all the custom recipes this mod adds available for u
         name="steel-plate-softening",
         type="recipe",
         category="smelting",
-        enabled=true,
+        enabled=false,
         main_product="soft-steel-plate",
         energy_required=10,
         ingredients=
@@ -270,7 +284,7 @@ data:extend({  --This makes all the custom recipes this mod adds available for u
         name="plastic-bar-softening",
         type="recipe",
         category="smelting",
-        enabled=true,
+        enabled=false,
         main_product="soft-plastic-bar",
         energy_required=10,
         ingredients=
@@ -287,7 +301,7 @@ data:extend({  --This makes all the custom recipes this mod adds available for u
         name="plastic-cup-forming",
         type="recipe",
         category="crafting-with-fluid",
-        enabled=true,
+        enabled=false,
         main_product="plastic-cup",
         energy_required=30,
         ingredients=
@@ -318,7 +332,7 @@ data:extend({  --This makes all the custom recipes this mod adds available for u
         name="cup-o-greer-making",
         type="recipe",
         category="advanced-crafting",
-        enabled=true,
+        enabled=false,
         main_product="cup-o-greer",
         energy_required=15,
         ingredients=
@@ -336,7 +350,7 @@ data:extend({  --This makes all the custom recipes this mod adds available for u
         name="greer-steel-blend-making",
         type="recipe",
         category="crafting-with-fluid",
-        enabled=true,
+        enabled=false,
         main_product="greer-steel-blend",
         energy_required=60,
         ingredients=
@@ -359,7 +373,7 @@ data:extend({  --This makes all the custom recipes this mod adds available for u
         name="green-steel-smelting",
         type="recipe",
         category="smelting",
-        enabled=true,
+        enabled=false,
         main_product="green-steel",
         energy_required=10,
         ingredients=
