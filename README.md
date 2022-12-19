@@ -1,2 +1,3 @@
 # hendriks-train-tsssjjj
- A mod that adds Michael Hendrik's Tsssjjj!!! sound.
+Refer to mod page for description:
+https://mods.factorio.com/mod/hendriks-trains-go-tsssjjj
