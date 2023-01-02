@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.0.2
+Date: 2023-01-02
+  Changes:
+    - Added a setting to enable or disable Green Steel and its production chain
+  Fixes:
+    - Fixed error in mod summary
+---------------------------------------------------------------------------------------------------
 Version: 1.0.1
 Date: 2022-12-19
   Fixes:
